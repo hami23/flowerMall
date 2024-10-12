@@ -1,0 +1,58 @@
+{
+    "editor.formatOnSave": true,
+  
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[wxss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[less]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    "prettier.documentSelectors": ["**/*.wxml", "**/*.wxss", "**/*.wxs"],
+  
+  
+    "[wxml]": {
+  
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  
+    },
+  
+    "minapp-vscode.cssExtname": "scss",
+  
+
+    "minapp-vscode.wxmlFormatter": "prettier",
+
+    "minapp-vscode.prettier": {
+      "useTabs": false,
+      "tabWidth": 2,
+      "printWidth": 80
+    },
+  
+
+    "wechat-miniapp.sync.delete": true,
+
+    "wechat-miniapp.ext.style": "scss",
+  
+
+    "files.associations": {
+      "*.json": "jsonc"
+    }
+  }
+  

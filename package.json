@@ -1,0 +1,20 @@
+{
+  "name": "flowermall",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.11.6",
+    "async-validator": "^4.2.5",
+    "http-wxmini": "^1.0.3",
+    "miniprogram-computed": "^5.0.0",
+    "mobx-miniprogram": "^6.12.3",
+    "mobx-miniprogram-bindings": "^4.0.0"
+  }
+}

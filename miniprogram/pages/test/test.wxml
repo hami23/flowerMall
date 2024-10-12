@@ -1,0 +1,19 @@
+<!--pages/test/test.wxml-->
+<view>
+  <button type="primary" plain size="mini" bindtap="handler1">点击发送请求</button>
+</view>
+
+<view>
+  <button type="warn" plain size="mini" bindtap="handler2">点击发送请求</button>
+</view>
+
+<view>
+  <button type="primary" size="mini" bindtap="handleAll">点击发送请求</button>
+</view>
+
+<view>
+  <button class="avatar-btn" open-type="chooseAvatar" bindchooseavatar="chooseAvatar">
+    <image class="avatar-img" src="{{ avatarUrl }}" mode=""/>
+  </button>
+</view>
+

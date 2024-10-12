@@ -1,0 +1,23 @@
+/* pages/test/test.wxss */
+view {
+  display: flex;
+  justify-content: center;
+  padding: 20rpx;
+}
+
+
+
+.avatar-btn {
+  background-color: transparent;
+}
+
+.avatar-btn::after {
+  border: none;
+}
+
+.avatar-img {
+  padding: auto;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
